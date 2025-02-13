@@ -1,3 +1,6 @@
+
+![core-blog-banner](https://github.com/user-attachments/assets/adc5ac0b-1bdd-4bb5-9763-a1fc8df4a117)
+
 ## **How to Become a WordPress Core Contributor: A Step-by-Step Guide**
 
 
