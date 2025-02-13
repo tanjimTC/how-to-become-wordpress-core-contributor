@@ -86,7 +86,7 @@ Before you start contributing, it’s essential to understand the WordPress Core
 **Start Contributing**
 
 1. Join the WordPress Community
-Slack: Join the [WordPress Slack](https://make.wordpress.org/chat/) to connect with other contributors. Once you’re logged in, you can join channels like #core, {% embed #good-first-bugs %}, and {% embed #polyglots %}.
+Slack: Join the [WordPress Slack](https://make.wordpress.org/chat/) to connect with other contributors. Once you’re logged in, you can join channels like #core, #good-first-bugs and #polyglots.
 
 Trac: WordPress uses Trac for issue tracking. Visit [core.trac.wordpress.org](https://core.trac.wordpress.org/) to find open tickets.
 
