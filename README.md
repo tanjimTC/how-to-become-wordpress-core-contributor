@@ -1,3 +1,6 @@
+## **How to Become a WordPress Core Contributor: A Step-by-Step Guide**
+
+
 If you're passionate about WordPress and want to give back to the community, becoming a WordPress Core Contributor is one of the most rewarding ways to do so. Not only will you be contributing to a platform that powers over 40% of the web, but you'll also gain invaluable experience, improve your coding skills, and connect with a global community of developers. As someone who has contributed to WordPress Core, I can tell you firsthand that it’s a fulfilling journey. Here’s how you can get started.
 
 ## **Why Contribute to WordPress Core?**
