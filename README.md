@@ -6,13 +6,13 @@ If you're passionate about WordPress and want to give back to the community, bec
 ## **Why Contribute to WordPress Core?**
 Before diving into the technical details, let’s talk about why you should contribute to WordPress Core.
 
-**Impact**: WordPress powers over 1.3 billion websites. Your contributions will directly impact millions of users worldwide.
-
-**Skill Development**: You’ll work with some of the best developers in the world, learn best practices, and improve your coding skills.
-
-**Community**: You’ll become part of a global community of developers, designers, and contributors who are passionate about open-source software.
-
-**Recognition**: Your contributions will be recognized, and you’ll gain credibility in the WordPress ecosystem.
+ 1. **Impact**: WordPress powers over 1.3 billion websites. Your contributions will directly impact millions of users worldwide.
+ 
+ 2. **Skill Development**: You’ll work with some of the best developers in the world, learn best practices, and improve your coding skills.
+ 
+ 3. **Community**: You’ll become part of a global community of developers, designers, and contributors who are passionate about open-source software.
+ 
+ 4. **Recognition**: Your contributions will be recognized, and you’ll gain credibility in the WordPress ecosystem.
 
 As [Jean-Baptiste Audras pointed out in his 2022 article](https://jeanbaptisteaudras.com/en/2022/05/wp-6-0-arturo-contribution-stats/), WordPress Core contributions are growing, and the community is more welcoming than ever. Now is the perfect time to get involved.
 
@@ -61,15 +61,17 @@ By default, you can access your local WordPress site at http://localhost:8889 wi
 ## **Common Setup Issues and Solutions**
 
 **1. Dependency Version Mismatch**
+
 If you encounter issues during npm install, it’s likely due to a dependency version mismatch. Make sure you’re using the correct versions of Node.js and PHP as specified in the .nvmrc and composer.json files.
 
 **2. Docker Platform Mismatch**
-If you’re using an M1 MacBook, you might face platform mismatch issues. To resolve this, add the following line to your docker-compose.yml file:
 
+If you face platform mismatch issues. To resolve this, add the following line to your docker-compose.yml file:
 `platform: linux/x86_64`
 
 **3. Docker Issues**
-If Docker continues to give you trouble, consider using OrbStack as a replacement for Docker Desktop. It’s faster and more reliable, especially for M1 Mac users.
+
+If Docker continues to give you trouble, consider using OrbStack as a replacement for Docker Desktop. It’s faster and more reliable, especially for Mac users.
 
 Understanding the Codebase
 Before you start contributing, it’s essential to understand the WordPress Core codebase. Here are some key files and their roles:
@@ -83,24 +85,21 @@ Before you start contributing, it’s essential to understand the WordPress Core
 - webpack.config.js: Bundles JavaScript and CSS files.
 - .editorconfig: Ensures consistent coding styles across editors.
 
-**Start Contributing**
+## **Start Contributing**
 
 1. Join the WordPress Community
-Slack: Join the [WordPress Slack](https://make.wordpress.org/chat/) to connect with other contributors. Once you’re logged in, you can join channels like #core, #good-first-bugs and #polyglots.
-
-Trac: WordPress uses Trac for issue tracking. Visit [core.trac.wordpress.org](https://core.trac.wordpress.org/) to find open tickets.
+   - Slack: Join the [WordPress Slack](https://make.wordpress.org/chat/) to connect with other contributors. Once you’re logged in, you can join channels like #core, #good-first-bugs and #polyglots.
+   -  Trac: WordPress uses Trac for issue tracking. Visit [core.trac.wordpress.org](https://core.trac.wordpress.org/) to find open tickets.
 
 2. Find a Good First Bug
 Start with a “good first bug” to get familiar with the contribution process. You can find these tickets here: [Good First Bugs](https://core.trac.wordpress.org/tickets/good-first-bugs).
 
 3. Create and Submit a Patch
+   - Make your changes locally.
+   - Generate a patch file:
+    `git diff > 12345.diff`
+   - Upload the patch to the Trac ticket for review.
 
-1. Make your changes locally.
-2. Generate a patch file:
- `git diff > 12345.diff`
-3. Upload the patch to the Trac ticket for review.
-
-Solving a Problem
 Let’s say you’re working on [Ticket #57897](https://core.trac.wordpress.org/ticket/57897). After analyzing the issue, you create a patch and submit it for review. The WordPress Core team will review your patch, provide feedback, and, if everything looks good, merge it into the Core.
 
 ## **Final Thoughts**
@@ -108,4 +107,4 @@ Contributing to WordPress Core is a fantastic way to give back to the community 
 
 So, what are you waiting for? Dive in, start contributing, and become a part of the WordPress Core community today!
 
-Feel free to reach out to me on [LinkedIn ](https://www.linkedin.com/in/its-tanjim-chowdhury/)or check out my [GitHub ](https://github.com/tanjimTC)for more insights into my contributions. Happy coding! 🚀# how-to-become-wordpress-core-contributor
+Feel free to reach out to me on [LinkedIn ](https://www.linkedin.com/in/its-tanjim-chowdhury/)or check out my [GitHub ](https://github.com/tanjimTC)for more insights into my contributions. Happy coding! 🚀
